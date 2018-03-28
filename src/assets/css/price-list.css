@@ -1,0 +1,89 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box
+}
+
+:focus {
+  outline: 0
+}
+
+textarea {
+  resize: none
+}
+
+a:active, a:hover {
+  text-decoration: none
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif
+}
+
+body .table > thead > tr > th {
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 12px;
+  color: #b1b1b1;
+  font-weight: 400;
+  border-bottom: 1px solid #ddd
+}
+
+body .table > thead > tr > th{
+  text-align: left;
+  vertical-align: middle;
+}
+
+body .table > tbody > tr > td {
+  font-size: 12px;
+  color: #666;
+  border-top: 0;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+body .table > tbody > tr > td:first-child {
+  text-align: left;
+  /*font-weight: 700;
+  color: #333;*/
+  font-size: 14px
+}
+.xitu-name{
+  font-weight: 700;
+  color: #333;
+}
+body .table > tbody > tr > td.up,.mup {
+  color: #dc0000;
+}
+
+body .table > tbody > tr > td.down,.mdown {
+  color: #00ba00;
+}
+
+.mxitu-dizhang-up{
+  background: #dc0000;
+}
+.mxitu-dizhang-down{
+  background: #00ba00;
+}
+
+.mxitu-dizhang-eq{
+  background: #D8D8D8;
+}
+.none-layer{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 40px;
+  margin: -20px 0 0 -50px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color: #cccccc;
+  background: #fff;
+}
